@@ -1,0 +1,19 @@
+
+<app-alert-notifications *ngIf="showAlert"
+[message]="alertNotification.message"
+[notificationType]="alertNotification.notificationType"/>
+<app-background/>
+<div class="flex flex-col-reverse sm:flex-col content-between h-screen w-full">
+  <app-nav />
+
+  <div class="flex-grow overflow-y-auto">
+    <router-outlet/>
+  </div>
+
+
+
+
+</div>
+
+
+<!-- Rojo #DC4955 -->

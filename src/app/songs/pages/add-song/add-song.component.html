@@ -1,0 +1,16 @@
+
+<!-- Paso 1: poner letra -->
+<!-- <app-step-one-add-song/> -->
+<!-- <app-step-one-add-song-desktop *ngIf="desktopMode && step === 1"
+(readySong)="getSongFromChildren($event)"
+[lines]="song"/>
+-->
+
+<!-- Paso 2: poner acordes -->
+
+<app-step-two-add-song-desktop *ngIf="step === 2"
+[song]="song" (step)="handleChildStepTwo($event)" />
+ <app-step-one-add-song *ngIf="step === 1"
+ (readySong)="getSongFromChildren($event)"
+ [lines]="song"/>
+

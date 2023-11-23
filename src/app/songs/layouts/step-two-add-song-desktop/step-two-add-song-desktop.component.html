@@ -1,0 +1,32 @@
+<div class="container flex flex-col p-3 mx-auto min-h-full">
+
+  <div class="flex justify-between mb-1">
+    <div>Paso 2: Poner acordes</div>
+    <button (click)="toBack()" class="bg-red-600 p-1 rounded text-red-300 hover:bg-red-500 hover:text-red-300">Atras</button>
+  </div>
+
+  <!-- line contiene un arreglo de objetos que tiene una string y un boolean
+    el string es una palabra del renglon en cuestion y el boolean sirve para
+    mostrar o no un acorde
+   -->
+  <div class="flex flex-grow" *ngFor="let line of words; let l = index">
+
+      <div class="flex flex-col justify-end" *ngFor="let word of line; let w = index">
+        <div *ngIf="word.toShow" class="relative ">C</div>
+        <div class="break-words mr-1 cursor-pointer hover:bg-blue-400"
+        (click)="clickOnWord(l, w)">{{ word.word }}</div>
+      </div>
+  </div>
+
+
+  <div class="flex flex-row-reverse">
+    <button class="bg-blue-600 p-1 rounded text-white hover:bg-blue-500 hover:text-blue-300 w-fit"
+      (click)="next()">siguiente</button>
+  </div>
+
+
+
+
+
+
+</div>
