@@ -474,9 +474,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\BackendAspNetCoreWebApi.csproj",
-      "projectName": "BackendAspNetCoreWebApi",
-      "projectPath": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\BackendAspNetCoreWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\GrupoArellano.API.csproj",
+      "projectName": "GrupoArellano.API",
+      "projectPath": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\GrupoArellano.API.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\obj\\",
       "projectStyle": "PackageReference",

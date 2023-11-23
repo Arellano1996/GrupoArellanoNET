@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "OvQWtT4qnG7242r5HKNAzjWq2gtktXhCZq/6TMFGntQ=",
-  "Source": "BackendAspNetCoreWebApi",
-  "BasePath": "_content/BackendAspNetCoreWebApi",
+  "Hash": "1qsPKwzXR4O5CYvjDhM9q0nSHpKonFA9XA73LYKggV0=",
+  "Source": "GrupoArellano.API",
+  "BasePath": "_content/GrupoArellano.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
