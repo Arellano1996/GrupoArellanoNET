@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JBu7lJsIyMS5w8XSwAbN/E6qLv9eulFQ/CozSHZAtlWwPHoL72B8i3quiQyg1cbWIw3k+xRfFAjHU8lniDLXyA==",
+  "dgSpecHash": "dk+XPYOhf/5FSEY9OPTtauB3bxDrQ68crtCKj1P9eaIbkpRqES3VEVtgW35XYk58P6fPxH69rhrESYRdfbON5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\BackendAspNetCoreWebApi.csproj",
+  "projectFilePath": "C:\\Users\\Luis\\Documents\\GrupoArellano\\BackendAspNetCoreWebApi\\GrupoArellano.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
