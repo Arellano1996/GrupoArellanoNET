@@ -1,3 +1,5 @@
+using GrupoArellano.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//builder.Services.AddDbContext<GrupoArellanoDbContext>(options => options.UseSqlServer( builder.Configuration.GetConnectionString("GrupoArellanoConnectionString") ));
+
+// Agregar la configuración de servicios de persistencia
+builder.Services.AddPersistenceServices(builder.Configuration);
 
 var app = builder.Build();
 
