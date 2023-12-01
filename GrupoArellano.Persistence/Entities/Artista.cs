@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace GrupoArellano.Persistence.Entities
 {
   public class Artista

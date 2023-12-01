@@ -11,7 +11,7 @@ namespace GrupoArellano.Persistence.Repository
       _dbContext = dbContext;
     }
 
-    public virtual async Task<T> GetAsync<T>(object id) where T : class
+    public virtual async Task<T?> GetAsync<T>(object id) where T : class
     {
       if (id == null)
       {

@@ -10,3 +10,5 @@ C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\obj\Debug\net7.0
 C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\obj\Debug\net7.0\refint\GrupoArellano.Persistence.dll
 C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\obj\Debug\net7.0\GrupoArellano.Persistence.pdb
 C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\obj\Debug\net7.0\ref\GrupoArellano.Persistence.dll
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\bin\Debug\net7.0\GrupoArellano.Persistence.runtimeconfig.json
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Persistence\obj\Debug\net7.0\GrupoArellano.Persistence.genruntimeconfig.cache

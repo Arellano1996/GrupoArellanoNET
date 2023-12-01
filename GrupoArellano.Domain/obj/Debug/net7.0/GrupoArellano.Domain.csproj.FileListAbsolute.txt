@@ -1,0 +1,12 @@
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\bin\Debug\net7.0\GrupoArellano.Domain.deps.json
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\bin\Debug\net7.0\GrupoArellano.Domain.dll
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\bin\Debug\net7.0\GrupoArellano.Domain.pdb
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.AssemblyInfo.cs
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.dll
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\refint\GrupoArellano.Domain.dll
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\GrupoArellano.Domain.pdb
+C:\Users\Luis\Documents\GrupoArellano\GrupoArellano.Domain\obj\Debug\net7.0\ref\GrupoArellano.Domain.dll
