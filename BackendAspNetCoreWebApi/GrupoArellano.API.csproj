@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GrupoArellano.Domain\GrupoArellano.Domain.csproj" />
     <ProjectReference Include="..\GrupoArellano.Persistence\GrupoArellano.Persistence.csproj" />
   </ItemGroup>
 

@@ -8,7 +8,7 @@ namespace GrupoArellano.Persistence.Entities
 {
   public class LinkCancion
   {
-    public Guid Id { get; set; }
+    public Guid LinkCancionId { get; set; }
     public string Link { get; set; }
   }
 }

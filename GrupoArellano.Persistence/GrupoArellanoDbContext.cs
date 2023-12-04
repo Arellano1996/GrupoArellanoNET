@@ -18,13 +18,19 @@ namespace GrupoArellano.Persistence
         //El método HasOne toma como argumento una expresión lambda que especifica la propiedad
         //de navegación en la entidad Cancion que representa esta relación.
         //.HasMany<Artista>(CancionSeRelacionaAArtistaPorElCampo => CancionSeRelacionaAArtistaPorElCampo.Artistas)
-        .HasMany<Artista>(e => e.Artistas);
+        .HasMany(e => e.Artistas)
+        .WithMany()
+        .UsingEntity(j => j.ToTable("CancionArtista"));
 
       modelBuilder.Entity<Cancion>()
-        .HasMany<Genero>(e => e.Generos);
+        .HasMany<Genero>(e => e.Generos)
+        .WithMany()
+        .UsingEntity(j => j.ToTable("CancionGenero")); ;
 
       modelBuilder.Entity<Cancion>()
-        .HasMany<LinkCancion>(e => e.LinksCancion);
+        .HasMany<LinkCancion>(e => e.LinksCancion)
+        .WithMany()
+        .UsingEntity(j => j.ToTable("CancionLinkCancion")); ;
 
     }
   }

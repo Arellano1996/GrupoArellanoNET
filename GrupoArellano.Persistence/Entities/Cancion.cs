@@ -4,7 +4,7 @@ namespace GrupoArellano.Persistence.Entities
 {
   public class Cancion
   {
-    public Guid Id { get; set; }
+    public Guid CancionId { get; set; }
     public string Nombre { get; set; }
     public string Letra { get; set; }
     public string Acordes { get; set; }

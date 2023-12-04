@@ -10,7 +10,5 @@ namespace GrupoArellano.Domain.Features.Canciones.AgregarCancion
     }
 
     public Cancion cancion { get; set; }
-    public bool seAgregoCorrectamento { get; set; }
-    public string mensaje { get; set; }
     }
 }
